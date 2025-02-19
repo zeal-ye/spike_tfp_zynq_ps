@@ -1,0 +1,23 @@
+#ifndef COMMON_H
+#define COMMON_H
+
+
+//#define TFP_IMG_WDITH 	(128)
+//#define TFP_IMG_HEIGHT 	(248)
+//#define TFP_ONE_IMG_SEND_PART (1)
+
+#define TFP_IMG_WDITH 	(400)
+#define TFP_IMG_HEIGHT 	(248)
+#define TFP_ONE_IMG_SEND_PART (2)
+#define TFP_IMG_SIZE 	(TFP_IMG_HEIGHT * TFP_IMG_WDITH)
+
+#define FRAME_HEADER (0x78563412)
+#define FRAME_HEADER_SIZE (4)
+#define FRAME_END (0xDDCCBBAA)
+#define FRAME_END_SIZE (4)
+#define FRAME_NUM_SIZE (1)
+#define FRAME_LENGTH_SIZE (2)
+#define FRAME_SERIAL_SIZE (1)
+
+
+#endif // COMMON_H
